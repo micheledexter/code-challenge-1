@@ -1,5 +1,7 @@
 console.log('js');
 
+let clickCount = 0;
+
 $(document).ready(readyNow);
 
 function readyNow() {
@@ -9,5 +11,7 @@ function readyNow() {
 }
 
 function generateDivTag() {
-	
+	clickCount++;
+	$('#main-content').append('<div class="generated-div"></div>');
+	$('.generated-div:last').append(`<p>${clickCount}</p>`);
 }
