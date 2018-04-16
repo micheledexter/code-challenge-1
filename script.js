@@ -18,6 +18,9 @@ function readyNow() {
 			parent.css('background-color', 'red');
 		}
 	});
+	$('#main-content').on('click', '.delete', function() {
+		$(this).parent().remove();
+	});
 }
 
 function generateDivTag() {
