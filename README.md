@@ -13,7 +13,7 @@ Follow the steps below to complete the code challenge:
 
 - [X] In a CSS file, any `<div>` created using the "Generate" button should have a Red background-color.
 
-- [ ] Clicking a "Swap" `<button>` should change its parent background-color from Red to Yellow.
+- [X] Clicking a "Swap" `<button>` should change its parent background-color from Red to Yellow.
 
 - [ ] Clicking the "Swap" `<button>` again should turn the color back to Red.
 
