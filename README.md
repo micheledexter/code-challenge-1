@@ -3,7 +3,7 @@
 ## Instructions
 Follow the steps below to complete the code challenge:
 
-- [ ] Create a `<button>` element on the DOM, you may do this in jQuery, or write it directly in the HTML code. Have the button text read "Generate".
+- [X] Create a `<button>` element on the DOM, you may do this in jQuery, or write it directly in the HTML code. Have the button text read "Generate".
 
 - [ ] Using jQuery, append a `<div>` element when you click the button.
 
