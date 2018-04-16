@@ -12,6 +12,8 @@ function readyNow() {
 
 function generateDivTag() {
 	clickCount++;
-	$('#main-content').append('<div class="generated-div"></div>');
-	$('.generated-div:last').append(`<p>${clickCount}</p>`);
+	$('#main-content').append(`<div id="div${clickCount}" class="generated-div"></div>`);
+	$('.generated-div:last').append(`<p id="p${clickCount}">${clickCount}</p>`);
+	$('.generated-div:last').append(`<button id="btn-swap-${clickCount}" class="swap">Swap</button>`);
+	$('.generated-div:last').append(`<button id="btn-delete-${clickCount}" class="delete">Delete</buton>`);
 }

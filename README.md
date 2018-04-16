@@ -9,7 +9,7 @@ Follow the steps below to complete the code challenge:
 
 - [X] Inside the `<div>` element you created in the previous step, create a `<p>` element that shows how many times you have clicked the button from the first step.
 
-- [ ] Inside the `<div>` element you created in step two, append two `<button>` elements. The text of the two buttons should read "Swap" and "Delete".
+- [X] Inside the `<div>` element you created in step two, append two `<button>` elements. The text of the two buttons should read "Swap" and "Delete".
 
 - [ ] In a CSS file, any `<div>` created using the "Generate" button should have a Red background-color.
 
